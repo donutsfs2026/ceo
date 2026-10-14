@@ -230,7 +230,7 @@ const CFG={
  PASS:0.85,            /* proporción mínima de aciertos para aprobar una evaluación (1 = 100 %). Recomendado pedagógicamente: 0.85 */
  MAX_TRY:5,         /* intentos de login antes de bloquear */
  LOCK_MS:30000,     /* duración del bloqueo (ms) */
- AUTH:['628ebd37ffccac580051df990925ef5fcde4b02859bdcb74281bfec00fd8553b'] /* SHA-256 de "email|contraseña". Genera nuevos con hashAcceso('email','clave') en la consola */
+ AUTH:['ee699033f3442069684e42bb494679f4cd0ee07afa616138be52423414275768'] /* SHA-256 de "email|contraseña"... */
 };
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const DAY=864e5,BOXD=[0,1,3,7,14]; /* cajas de Leitner: días hasta el próximo repaso */
